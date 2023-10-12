@@ -1,0 +1,148 @@
+version: "3.0"
+
+nlu:
+- intent: appointmentfortheday
+  examples: | 
+    - what are the appointments for the day
+    - appointments today
+  
+- intent: breifmemarket
+  examples: | 
+    - breif me about the market
+
+- intent: reminderset
+  examples: | 
+    - set a reminder  at [9 AM](t_entity)  about [database creation](t_subject)
+    - set a reminder  at [11 30 AM](t_entity)  about [data discussion](t_subject)
+    - set a reminder on [next thursday](time) at [9 AM](t_entity) for [database creation](t_subject)
+    - set a reminder  on [this Saturday](time) at  [10 AM](t_entity) for [database discussion](t_subject)
+    - set a reminder  on [October first Saturday](time) at  [11 AM](t_entity) for [account 360 discussion](t_subject)
+    - set a reminder  on [saturday](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - set a reminder on [monday](time) at  [12 pm ](t_entity)   for [data discussion](t_subject)  
+    - set a reminder  on [tuesday](time) at  [11 30 AM](t_entity)   for [data discussion](t_subject)  
+
+- intent: appointment
+  examples: |
+    - book an appointment on [next thursday](time) at [9 AM](t_entity) for [database creation](t_subject)
+    - book an appointment on [this Saturday](time) at  [10 AM](t_entity) for [database discussion](t_subject)
+    - book an appointment on [October first Saturday](time) at  [11 AM](t_entity) for [account 360 discussion](t_subject)
+    - book an appointment on [saturday](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [monday](time) at  [12 pm ](t_entity)   for [data discussion](t_subject)  
+    - book an appointment on [tuesday](time) at  [11 30 AM](t_entity)   for [data discussion](t_subject)  
+    - book an appointment on [wednesday](time) at  [11 30 AM](t_entity)   for [data discussion](t_subject)  
+    - book an appointment on [thursday](time) at  [11 30 AM](t_entity)   for [data discussion](t_subject)  
+    - book an appointment on [sunday](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [last sunday](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [Today](time) at  [11 30 AM](t_entity)   for [data discussion](t_subject)  
+    - book an appointment on [Tomorrow](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [Day after Tomorrow](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [june 21](time) at   [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [may 12](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [July 8](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [November 1](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [1st of May](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [31st October](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [2nd November](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [8th July](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [3rd December](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [August 15th](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+    - book an appointment on [march 2nd](time) at  [11 30 AM](t_entity)  for [data discussion](t_subject)  
+
+
+- intent: launch_apps
+  examples: |
+    - launch [Account 360](t_apps)
+    - open [Account 360](t_apps)
+    - launch [Document center](t_apps)
+    - navigate to [Account 360](t_apps)
+    - navigate to [Document center](t_apps)
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

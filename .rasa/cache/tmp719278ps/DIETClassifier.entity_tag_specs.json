@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-t_apps",
+      "2": "I-t_apps",
+      "3": "L-t_apps",
+      "4": "U-t_apps",
+      "5": "B-t_entity",
+      "6": "I-t_entity",
+      "7": "L-t_entity",
+      "8": "U-t_entity",
+      "9": "B-t_subject",
+      "10": "I-t_subject",
+      "11": "L-t_subject",
+      "12": "U-t_subject",
+      "13": "B-time",
+      "14": "I-time",
+      "15": "L-time",
+      "16": "U-time",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-t_apps": 1,
+      "I-t_apps": 2,
+      "L-t_apps": 3,
+      "U-t_apps": 4,
+      "B-t_entity": 5,
+      "I-t_entity": 6,
+      "L-t_entity": 7,
+      "U-t_entity": 8,
+      "B-t_subject": 9,
+      "I-t_subject": 10,
+      "L-t_subject": 11,
+      "U-t_subject": 12,
+      "B-time": 13,
+      "I-time": 14,
+      "L-time": 15,
+      "U-time": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]
